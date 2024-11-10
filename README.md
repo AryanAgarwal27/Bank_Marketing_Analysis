@@ -77,12 +77,68 @@ You can also view the live Tableau dashboard by following the link below:
 
 
 ## Getting Started
+## Setup Instructions
 
-To replicate this analysis on your machine:
+Follow these steps to set up and run the project locally:
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/AryanAgarwal27/Bank_Marketing_Analysis.git
+### 1. Clone the repository
+
+First, clone the project repository to your local machine using the following command:
+
+    ```bash
+    git clone https://github.com/AryanAgarwal27/Bank_Marketing_Analysis.git
+    cd Bank_Marketing_Analysis
+## 2. Create and activate a virtual environment (optional but recommended)
+Creating a virtual environment helps isolate the dependencies for the project. To create and activate a virtual environment, run:
+
+### For Windows:
+    ```bash
+    python -m venv venv
+    .\venv\Scripts\activate
+### For MacOS
+    ```bash
+    python -m venv venv
+    source venv/bin/activate
+## 3. Install dependencies
+The project has a list of dependencies stored in the `requirements.txt` file. Install them using:
+
+    ```bash
+    pip install -r requirements.txt
+## 4. Accessing the dataset
+The dataset used for this project is not included in the repository. However, you can download it from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing). Once downloaded, place the dataset (usually named `bank-marketing.csv`) into the `data/` folder in the project directory.
+
+### Project Structure Example:
+    ```plaintext
+    Bank_Marketing_Analysis/
+    │
+    ├── data/
+    │   └── bank-marketing.csv
+    │
+    ├── src/
+    │   ├── model.py
+    │   ├── data_preprocessing.py
+    │   └── utils.py
+    ├── Picture/
+    │   ├── Accuracy_XGB.png
+    │   ├── Confusion_Matrix_XGB.png
+    │   └── Tableau_dashboard.png
+    ├── requirements.txt
+    ├── LICENSE
+    ├── README.md
+    └── main.py
+## 5. Running the Project
+Once the dependencies are installed and the dataset is in place, you can run the project locally.
+
+To run the project and train the model, execute the following command:
+
+    ```bash
+    python main.py
+## 6. Additional Notes
+- If you want to modify the hyperparameters or try different models, you can find the relevant code in the `src/` folder, specifically in the `model.py` and `data_preprocessing.py` files.
+- For more details on the project or to contribute, feel free to open an issue or create a pull request on GitHub.
+
+
+    
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
