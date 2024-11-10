@@ -72,7 +72,7 @@ You can also view the live Tableau dashboard by following the link below:
 
 [Tableau Public Dashboard](https://public.tableau.com/app/profile/aryan.agarwal1594/viz/BankMarketingCampaignAnalysis_17312572029480/Dashboard6)
 
-[![Tableau Dashboard](C:/Users/aryan/OneDrive/Documents/Projects/Bank_Marketing_campaign/Picture/Tableau_dashboard.png)](https://public.tableau.com/app/profile/aryan.agarwal1594/viz/BankMarketingCampaignAnalysis_17312572029480/Dashboard6)
+[![Tableau Dashboard](Picture/Tableau_dashboard.png)](https://public.tableau.com/app/profile/aryan.agarwal1594/viz/BankMarketingCampaignAnalysis_17312572029480/Dashboard6)
 
 
 
